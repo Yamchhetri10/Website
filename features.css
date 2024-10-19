@@ -1,0 +1,53 @@
+.features-wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .features-container h1 {
+    color: rgb(4, 83, 70);
+    text-align: center;
+  }
+  .features-wrapper h1 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .quote-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .quote {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid green;
+  }
+  
+  .questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+  }
+  .questions fieldset {
+    padding: 10px;
+  }
+  
+  .quiz .btn {
+    padding: 10px;
+    background-color: rgb(4, 83, 70);
+    color: white;
+    font-size: 20px;
+    border-radius: 2px;
+  }

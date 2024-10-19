@@ -1,0 +1,47 @@
+.form-container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 100px;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .img-container {
+    width: 50vw;
+  }
+  .img-container img {
+    width: 100%;
+  }
+  .form-grp {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 10px;
+    width: 30vw;
+  }
+  
+  .form-grp input {
+    width: 100%;
+  }
+  
+  .form-grp label {
+    margin-top: 10px;
+  }
+  
+  .forms {
+    width: 30vw;
+  }
+  
+  .contact-btn {
+    padding: 10px;
+    color: white;
+    border-radius: 2px;
+    background-color: rgb(4, 83, 70);
+  }
